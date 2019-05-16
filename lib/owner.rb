@@ -58,7 +58,7 @@ class Owner
   
   def sell_pets
     @pets.collect { |species| species.mood}
-  
+  end
   
   def list_pets
     
